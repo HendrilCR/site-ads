@@ -1,0 +1,212 @@
+html{scroll-behavior: smooth;}
+
+body{
+	color: white;
+	margin: 0px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("../images/bodybg.jpg");
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logoimg{
+	height: 12vh;
+	margin-top: .2%;
+}
+
+.cabecalho{
+	background-image: url("../images/banner.jpg");
+	background-position: 0 77%;
+	background-repeat: no-repeat;
+	background-color: #1d03b1;
+	display: flex;
+	width:100vw;
+	height:10vh;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+}
+
+.menu{
+	display: flex;
+	margin-right: 30px;
+	font-weight: 500;
+}
+
+li{
+	list-style: none;
+	font-size: 1vw + 5px;
+}
+
+a{	
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	transition: all 300ms ease-in-out;
+}
+
+a:hover{
+	background-color: rgb(129, 150, 218);
+	color: black;
+}
+
+p{font-size: 1vw}
+
+section{
+	display:flex;
+	width: 80vw;
+	min-height: auto;
+	margin: 20px auto;
+	background-color: rgba(1, 0, 37, 0.76);
+	background-image:linear-gradient(#0000007c,#ffffff05);
+}
+
+#inicio{
+	margin-top: 10vh;
+}
+
+.inicioconteudo{
+	display: flex;
+	flex-direction: column;
+	align-content: fl;
+	width: 50%;
+	padding: 2%;
+}
+
+.iniciobolsa{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#linkbolsa{
+	background-color: rgb(54, 30, 109);
+}
+
+#linkbolsa:hover{
+	background-color: rgb(115, 174, 252);
+}
+
+.inicioimg{
+	background-image: url("../images/inicioimg.jpg");
+	background-size: cover;
+	background-color: red;
+	background-repeat: no-repeat;
+	width: 50%;
+}
+
+#turmaconteudo{
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	min-height: 10vh;
+	width: 100%;
+}
+
+#turmatitulo{
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 30%;
+}
+
+#turmatitulo h3{
+	margin-bottom: 0px;
+}
+
+.turma{
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+	margin-bottom: 5%;
+	opacity: 0.2;
+	padding: 0px;
+	transition: all ease-in-out 200ms;
+}
+
+.turmaimg{
+	margin-bottom: 10%;
+	width:120%;
+	border-radius: 100%;
+	border: 0px solid auto;
+	transition: all ease-out 200ms;
+}
+
+.turma:hover{
+	opacity: 1;
+}
+
+.turmaimg{
+	width: 10vw;
+}
+
+.turmaimg:hover{
+	width: 10vw;
+	border-radius: 0%;
+}
+
+#faleconteudo{
+	width: 100%;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#faletitulo{
+	width: 40%;
+	margin-left: 2vw;
+}
+
+#falelinks{
+	width: 50%;
+	height: 100%;
+}
+
+.logos{
+	height: 100%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.logoimage{
+	width: 50px;
+	filter:invert(1);
+}
+
+#logolink:hover{
+	background-color: #ffffff9d;
+	border-radius: 100%;
+	border: 0px;
+}
+
+#horaconteudo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	transition: all ease-in-out 600ms;
+}
+
+#horaconteudo h3{
+	margin-bottom: -40px;
+}
+
+#horaconteudo:hover{
+	opacity: 1;
+}
+
+#horaimg{
+	filter: invert(1);
+	width: 80%;
+	margin: 5%;
+}
+
+
